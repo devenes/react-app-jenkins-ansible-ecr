@@ -1,0 +1,9 @@
+variable "mykey" {}
+variable "myami" {}
+variable "instancetype" {}
+variable "tag" {}
+variable "jenkins-sg" {}
+variable "region" {}
+variable "aim_role_name" {}
+variable "aim_profile_name" {}
+variable "profile" {}
