@@ -1,0 +1,9 @@
+mykey            = "virginia"              # Define the keyname to use for SSH access
+instancetype     = "t3a.medium"            # Define the instance type to use for the managed nodes
+tag              = "Jenkins_Server"        # Define tags for the instances
+myami            = "ami-0022f774911c1d690" # Define the AMI to use for the instances
+region           = "us-east-1"             # Define the region to use
+profile          = "default"               # Define the profile to use
+jenkins-sg       = "jenkins-server-sec-gr-devenes"
+aim_role_name    = "awsrole-devenes"
+aim_profile_name = "jenkins-project-profile-devenes"
