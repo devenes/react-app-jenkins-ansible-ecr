@@ -7,13 +7,13 @@
   <img alt="Tool" src="https://badges.aleen42.com/src/javascript.svg">
   <img alt="Tool" src="https://badges.aleen42.com/src/react.svg">
   <img alt="Tool" src="https://badges.aleen42.com/src/github.svg">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/devenes/jenkins-ansible-ecr-app?color=yellow">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/devenes/jenkins-ansible-ecr-app?color=purple">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devenes/jenkins-ansible-ecr-app?color=pink">
-  <img alt="License" src="https://img.shields.io/github/license/devenes/jenkins-ansible-ecr-app?color=red">
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/devenes/jenkins-ansible-ecr-app?color=56BEB8" /> -->
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/devenes/jenkins-ansible-ecr-app?color=56BEB8" /> -->
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/devenes/jenkins-ansible-ecr-app?color=56BEB8" /> -->
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/devenes/react-app-jenkins-ansible-ecr?color=yellow">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/devenes/react-app-jenkins-ansible-ecr?color=purple">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devenes/react-app-jenkins-ansible-ecr?color=pink">
+  <img alt="License" src="https://img.shields.io/github/license/devenes/react-app-jenkins-ansible-ecr?color=red">
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/devenes/react-app-jenkins-ansible-ecr?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/devenes/react-app-jenkins-ansible-ecr?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/devenes/react-app-jenkins-ansible-ecr?color=56BEB8" /> -->
 </p>
 
 <p align="center">
@@ -167,10 +167,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 
 ```bash
 # Clone the project
-git clone https://github.com/devenes/jenkins-ansible-ecr-app
+git clone https://github.com/devenes/react-app-jenkins-ansible-ecr
 
 # Access the project folder
-cd jenkins-ansible-ecr-app/jenkins_server
+cd react-app-jenkins-ansible-ecr/jenkins_server
 
 # Initialize terraform
 terraform init
@@ -182,7 +182,7 @@ terraform apply -auto-approve
 <http://JENKINS_SERVER_IP>:8080
 
 # Connect to the Ansible server with SSH and get the project files
-git clone https://github.com/devenes/jenkins-ansible-ecr-app
+git clone https://github.com/devenes/react-app-jenkins-ansible-ecr
 
 # After you configured the Jenkins server and the project files, you can start the project by using Ansible playbook
 ansible-playbook -i inventory_aws_ec2.yml -u ec2-user playbook.yml
